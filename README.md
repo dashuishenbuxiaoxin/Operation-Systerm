@@ -24,14 +24,14 @@
 ###################以上所有结构体格式见代码#######################
 
 ##主要全局变量
-FILE *fp                
-int currentblock        
-char cmd[8]             
-char object[28]		
-char arg[8]		
-int DIRSTART	
-int INODESTART	
-int DATASTART		
+FILE *fp
+int currentblock
+char cmd[8]
+char object[28]
+char arg[8]
+int DIRSTART
+int INODESTART
+int DATASTART
 DIR rdir
 INODE tinode
 INODE cinode
